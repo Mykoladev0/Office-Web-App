@@ -1,0 +1,32 @@
+{
+  "dashboard": {
+    "js": "./js/dashboard.js",
+    "css": "./css/dashboard.css"
+  },
+  "app": {
+    "js": "./js/app.js",
+    "css": "./css/app.css"
+  },
+  "site": {
+    "js": "./js/site.js",
+    "css": "./css/site.css"
+  },
+  "": {
+    "jpg": [
+      "./images/avatar.jpg",
+      "./images/abkcBannerImage.jpg"
+    ],
+    "png": [
+      ".//favicons/android-chrome-192x192.png",
+      ".//favicons/apple-touch-icon.png",
+      ".//favicons/favicon-16x16.png",
+      ".//favicons/favicon-32x32.png",
+      ".//favicons/mstile-150x150.png",
+      "./images/abkc_logo.png"
+    ],
+    "xml": ".//favicons/browserconfig.xml",
+    "ico": ".//favicons/favicon.ico",
+    "svg": ".//favicons/safari-pinned-tab.svg",
+    "json": "./static/countries.json"
+  }
+}

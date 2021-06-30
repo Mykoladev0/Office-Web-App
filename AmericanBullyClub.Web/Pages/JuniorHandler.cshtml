@@ -1,0 +1,30 @@
+﻿@page
+@model IndexModel;
+@{
+    ViewData["Title"] = "American Bully Kennel Club";
+}
+<h1 class="display-4">Test project for PDFSharp task</h1>
+<div class="text-left"> 
+ 
+</div>
+
+<div class="text-right">        
+  <div class="input-group">
+    <form method="POST">
+        <div class="text-left">
+
+        <label>Print with background</label>
+        <input type="checkbox" asp-for="PrintWithBackground" />
+        <br>
+        <label>First page</label>
+        <div>Junior handler name<input asp-for="JuniorHandler.Name" /></div>
+        <div>Birthdate <input asp-for="JuniorHandler.Birthdate" /></div>
+        <div>Id <input asp-for="JuniorHandler.Id" /></div>
+        <div>Ownername<input asp-for="JuniorHandler.RegisteredOwnerName" /></div>
+        <div>Address1 <input asp-for="JuniorHandler.Address1" /></div>
+        <div>Address2 <input asp-for="JuniorHandler.Address2" /></div>
+        <div>Address3 <input asp-for="JuniorHandler.Address3" /></div>
+        <div>Generation date <input asp-for="JuniorHandler.CertificateGenerationDate" /></div>
+        <input type="submit" />
+    </form>
+</div>

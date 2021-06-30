@@ -1,0 +1,7 @@
+ run these from PMC in the CoreApp folder
+ #Add Migration
+ dotnet ef migrations add ChangesForPostingEvents --project ..\CoreDAL
+#from CLI in CoreApp Folder
+dotnet ef migrations add AddShowParticipants -p ../CoreDAL/CoreDAL.csproj -s BullsBluffCore.csproj -v
+ #Update database
+ dotnet ef database update -p ../CoreDAL/CoreDAL.csproj -s BullsBluffCore.csproj -v

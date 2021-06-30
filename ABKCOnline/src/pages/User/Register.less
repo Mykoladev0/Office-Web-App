@@ -1,0 +1,163 @@
+@import '~antd/lib/style/themes/default.less';
+
+.main {
+  width: 100%;
+  max-width: 368px;
+  
+  margin: 0 auto;
+
+  @media (max-width: 768px){
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  :global {
+    .ant-form-item {
+      margin-bottom: 24px;
+    }
+    .ant-form-explain-holder{
+      line-height: 0 !important;
+      span{
+        line-height: 1.5 !important;
+      }
+    }
+    .antd-pro-components-login-index-submit{
+      margin-top: 15px !important;
+    }
+  }
+
+  h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .getCaptcha {
+    display: block;
+    width: 100%;
+  }
+
+  .submit {
+    width: 100%;
+  }
+
+  .registerFormControl {
+    :global {
+      .ant-input-prefix{
+        color: #b3b7ba 
+      }
+      .ant-select-selection
+     {
+       background: transparent;
+       color: #b3b7ba 
+     }
+      .ant-select-arrow-icon{
+        color: #b3b7ba
+      }
+    }
+    .ant-btn{
+      height: 46px !important;
+    }
+    input{
+    background: transparent;
+    border-color: #a7adb0 !important;
+    color: #b3b7ba !important;
+    padding-left: 35px !important;
+    &:hover{
+      border-color: #a7adb0 !important;
+    }
+    &:focus{
+      border-color: #0091fb !important;
+      box-shadow: none !important;
+    }
+  }
+  .regBrandCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    img{
+      height: 86px;
+    }
+  }
+}
+  .textCenter{
+    text-align: center;
+  }
+
+  .titleRegister{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+  
+    &:before{
+      content: '';
+      position: absolute;
+      display: block;
+      width: 35px;
+      top: 50%;
+      right: calc( 100% + 5px);
+      height: 1px;
+      background: #fff;
+      opacity: 0.35;
+    }
+    &:after{
+      content: '';
+      position: absolute;
+      display: block;
+      width: 35px;
+      top: 50%;
+      left: calc( 100% + 5px);
+      height: 1px;
+      background: #fff;
+      opacity: 0.35;
+    }
+  }
+
+  .login {
+    float: right;
+    line-height: @btn-height-lg;
+    color: rgba(255,255,255,0.65);
+    &:hover{
+      color: rgba(255, 255, 255, 0.85);
+    }
+  }
+}
+
+.success,
+.warning,
+.error {
+  transition: color 0.3s;
+}
+
+.success {
+  color: @success-color;
+}
+
+.warning {
+  color: @warning-color;
+}
+
+.error {
+  color: @error-color;
+}
+
+.progress-pass > .progress {
+  :global {
+    .ant-progress-bg {
+      background-color: @warning-color;
+    }
+  }
+}
+
+.errorMessage{
+  color: #ff1f14;
+  text-align: center;
+}
+
+.successMessage{
+  color: #3ff36e;
+  text-align: center;
+}

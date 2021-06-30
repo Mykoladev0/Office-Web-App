@@ -1,0 +1,187 @@
+/* shows css */
+
+.shows .search-input .ant-input-affix-wrapper {
+    max-width: 540px;
+}
+.shows .search-input {
+    max-width: 850px;
+} 
+.shows .anticon-filter {
+    font-size: 30px;
+    color: #9CA7B5;
+    margin-left: 12px;
+}
+.ant-dropdown-menu-group {
+    max-width: 180px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(9, 48, 105, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 0PX;
+}
+.ant-dropdown-menu-group h4 {
+    font-size: 12px;
+    line-height: 16px;
+    color: #394E6C;
+    margin-bottom: 12px;
+}
+.ant-radio-wrapper {
+    margin-bottom: 12px;
+    color: #394E6C;
+    font-size: 11px;
+}
+.shows .ant-card-bordered {
+    max-width: 253px;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(9, 48, 105, 0.1);
+    margin: 0px 10.5px 21px 10.5px;
+}
+.shows .ant-card-body{
+      flex-direction: column;
+}
+.shows h3 {
+    font-weight: 750;
+    font-size: 11px;
+    line-height: 15px;
+    color: #394E6C;
+}
+.shows .ant-card-meta-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000E22;
+    margin: 5px 0px;
+}
+.shows .ant-typography {
+    margin: 3px 0px;
+} 
+.shows .ant-typography-secondary {
+    font-size: 12px;
+    line-height: 16px;
+    color: #666E7A;
+    font-weight: 500;
+}
+.shows .ant-typography-secondary span{
+    color: #000E22;
+}
+.shows .cards .location {
+    display: flex;
+    font-size: 12px;
+    color: #666E7A;
+    font-weight: 500;
+}
+.icon-loc {
+    margin-right: 5px;
+    margin-top: 3px;
+    font-size: 14px;
+}
+.shows .cards {
+    padding: 0px 0px 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+.shows .card-content {
+    padding:12px 20px;
+}
+.shows a {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #00A3FF;
+    direction: rtl;
+}
+.shows .card-image {
+    width: 100%;
+    background: rgba(178, 186, 198, 0.14);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+}
+.shows .card-image img {
+    width: 100%;
+    height: 110px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+}
+.shows .dog-avatar {
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+.shows .dog-avatar img {
+    width: 30px;
+    height: 30px;
+    border-radius: 120px;
+    margin-right: 10px;
+}
+.shows .dog-avatar h3 {
+    font-size: 11px;
+    color: #000E22;
+    margin: 0px;
+}
+.shows .reg-show h2 {
+    font-size: 12px;
+    font-weight: 700;
+    color: #394E6C;
+}
+.shows .reg-show a{
+    color: #CF2D48;
+    text-align:center;
+    margin-top: 18px;
+}
+.cancel-modal .ant-modal-body {
+    padding: 0px;
+}
+.cancel-modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+.cancel-modal-content .cancel-icon {
+    height: 180px;
+    width: 180px;
+    background: #CF2D48;
+    opacity: 0.05;
+    position: relative;
+    border-radius: 120px;
+}
+.cancel-modal-content .anticon-stop {
+    color: #CF2D48;
+    font-size: 85px;
+    margin-bottom: 50px;
+}
+.cancel-modal-content h1 {
+    font-size: 30px;
+    color: #000E22;
+}
+.cancel-modal-content h5 {
+    font-size: 18px;
+    color: #666E7A;
+}
+.cancel-modal-content .confirm-modal-btn .btn-card {
+    background-color: #627A9E;
+    max-width: 160px;
+    width: 100%;
+    height: 50px;
+    margin: 0px 12px;
+}
+.cancel-modal-content .confirm-modal-btn .btn-card span {
+    color: #ffffff;
+}
+@media only screen and (max-width:768px){ 
+    .shows .search-input {
+        padding: 24px;
+    }
+}
+@media only screen and (max-width:511px){  
+    .shows .ant-card-bordered {
+        margin-right: 0px;
+    }
+    .search-input h2 {
+        font-size: 12px;
+    }
+}

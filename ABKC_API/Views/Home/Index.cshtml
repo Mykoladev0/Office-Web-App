@@ -1,0 +1,70 @@
+@{ Layout = null; }
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<!-- <link rel="stylesheet" href="~/dist/main.css" /> -->
+
+<body class='container'>
+ <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+<div class="row">
+    <div class="container col-md-2 col-md-offset-5">
+        <h5>Upgrade your account</h5>
+        <form action="/Home/Charge" method="POST">
+            <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                    data-key="pk_test_qfSKg5QcBLmgb84H7zVaXoKV"
+                    data-amount="1000"
+                    data-name="My Project Name"
+                    data-description="Premium Account (€10)"
+                    data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                    data-locale="auto"
+                    data-zip-code="true"
+                    data-currency="eur">
+            </script>
+        </form>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+<script type="text/javascript">
+        Stripe.setPublishableKey('YOUR STRIPE PUBLIC KEY');
+
+var stripeResponseHandler = function (status, response) {
+    var $form = $('#payment-form');
+
+    if (response.error) {
+        // Show the errors on the form
+        $form.find('.payment-errors').text(response.error.message);
+        $form.find('button').prop('disabled', false);
+    } else {
+        // token contains id, last4, and card type
+        var token = response.id;
+        // Insert the token into the form so it gets submitted to the server
+        $form.append($('<input type="hidden" asp-for="stripeToken" />').val(token));
+        // and re-submit
+        $form.get(0).submit();
+    }
+};
+
+jQuery(function ($) {
+    $('#payment-form').submit(function (e) {
+        var $form = $(this);
+
+        // Disable the submit button to prevent repeated clicks
+        $form.find('button').prop('disabled', true);
+
+        Stripe.card.createToken($form, stripeResponseHandler);
+
+        // Prevent the form from submitting with the default action
+        return false;
+    });
+});
+</script>
+<!-- <script src="~/dist/bundle.js"></script> -->
+</html>

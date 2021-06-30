@@ -1,0 +1,13 @@
+@{ Layout = "_Layout"; }
+@{
+    ViewData["Title"] = "Dashboard";
+}
+@section css {
+    <link rel="stylesheet" href="~/wwwroot/css/app.css" />
+}
+
+<div id="react-dashboard">Loading...</div>
+
+@section scripts {
+    <script src="~/wwwroot/js/dashboard.js" asp-append-version="true"></script>
+}

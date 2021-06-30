@@ -1,0 +1,257 @@
+.trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  .trigger:hover {
+    color: #1890ff;
+  }
+  .sider-logo {
+    text-align: center;
+  }
+  .sider-logo img {
+    width: 80px;
+    height: 80px;
+  }
+  .main-screen .ant-tabs-nav-container {
+    height: 100%;
+    margin-top: 30px;
+  }
+  .main-screen .ant-tabs-nav {
+    max-width: 210px;
+    width: 100%;
+    transform: initial !important;
+  }
+  .main-screen .ant-tabs-nav>div{
+    display: flex;
+    flex-direction: column;
+  }
+  .main-screen .ant-tabs-bar {
+    border-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .main-screen .ant-tabs-nav .ant-tabs-tab-active{
+    background: #00A3FF;
+    color: #fff;
+  } 
+  .main-screen .ant-tabs-nav .ant-tabs-tab {
+    margin: 0px;
+    padding-left: 30px;
+    color: #fff;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .main-screen .ant-tabs-nav .ant-tabs-tab:hover {
+    color: #fff;
+  }
+  .ant-tabs-ink-bar {
+    display: none !important;
+  }
+  .ant-tabs-tab-prev-icon, .ant-tabs-tab-next-icon {
+    display: none;
+  }
+  .ant-layout-header .user-label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000E22; 
+    margin:0px 10px;
+  }
+  .ant-dropdown {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(9, 48, 105, 0.1);
+  }
+  .ant-dropdown ul {
+    padding: 10px;
+    margin: 0px;
+  }
+  .ant-dropdown ul li {
+    list-style: none;
+    margin-top: 5px;
+  }
+  .ant-layout-header .anticon-down {
+    margin-right: 30px;
+    font-size: 15px;
+    color: rgba(9, 48, 105, 0.3);;
+  }
+  .ant-avatar-lg {
+    width: 50px;
+    height: 50px;
+  }
+  .btn-card {
+    background-color: #093069 ;
+    border: none ;
+    border-radius: 10px;
+    box-shadow: none ;  
+}
+.main-screen .btn-submit {
+  background: #00A3FF;;
+}
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+.ant-layout-sider {
+  flex: 0 0 250px !important;
+  max-width: 250px !important;
+  min-width: 250px !important;
+  width: 250px !important;
+  /* height: 100vh; */
+  background: #394E6C;
+  padding: 20px 20px;
+}
+.ant-layout-sider-collapsed {
+  flex: 0 0 0px !important;
+  max-width: 0px !important;
+  min-width: 0px !important;
+  width: 0px !important;
+  padding: 0px;
+  overflow: hidden;
+}
+.ant-layout-header {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  }
+.head {
+  padding: 0px;
+}
+.head h1{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000E22;
+  flex-grow: 1;
+  margin-bottom: 8px;
+}
+.sider-nav {
+  display: flex;
+  flex-direction: column;
+}
+.sider-nav Button {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.search-input {
+  display: flex;
+  align-items: center;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 24px 30px 24px 24px;
+}
+.search-input h2 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000E22;
+  flex-grow: 1;
+  margin-right:7px;
+}
+.search-input .ant-input-affix-wrapper {
+  max-width: 635px;
+  width: 100%;
+}
+.cards {
+  max-width: 850px;
+  width: 100%;
+  margin: 0 auto;
+  overflow-y: scroll;
+  height: 100vh;
+  padding: 0px 24px 20px 24px;
+  border-top-left-radius: 10px;
+  border-top-right-radius:10px ;
+}
+.cards::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+.cards::-webkit-scrollbar{
+  width: 6px;
+  background: transparent; 
+}
+.cards::-webkit-scrollbar-thumb{
+  background: rgba(146, 166, 195, 0.4);
+  width: 6px;
+  border-radius: 90px; 
+}
+.ant-form-item-label > label::after {
+  display: none;
+}
+.main-screen .ant-form-item-label > label {
+  font-size: 12px;
+  line-height: 16px;
+  color: #000E22;
+  opacity: 0.6;
+}
+.toggle-bar {
+  display: none;
+}
+@media only screen and (max-width:768px){ 
+
+  .ant-tabs-nav .ant-tabs-tab {
+    padding-left: 10px;
+  }
+  .register-form {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media only screen and (max-width:414px){
+  .register-form {
+    padding: 10px 10px;
+  }
+  .main-screen .ant-row {
+    margin-right: 0px;
+  }
+  .main-screen .ant-upload.ant-upload-drag {
+    margin-right: 0px;
+  }
+  .register-footer-label span {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width:576px){
+  .ant-layout-sider {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
+    width: 100% !important;
+    padding: 65px 20px;
+  }
+  .ant-layout-sider-collapsed {
+    flex: 0 0 !important;
+    max-width: 0px !important;
+    min-width: 0px !important;
+    width: 0px !important;
+    padding: 0px;
+    overflow: hidden;
+  }
+  .head h1 {
+    font-size: 18px;
+  }
+  .trigger {
+    padding: 0 15px;
+  }
+  .toggle-bar{
+    display: block;
+    position: absolute;
+    top: -3px;
+    right: 21px;
+  }
+  .toggle-bar span {
+    transform: rotate(45deg);
+    font-size: 33px;
+    padding: 0px;
+    color: #fff;
+  }
+  .main-screen .ant-tabs-nav {
+    max-width: 100%;
+  }
+  .head, .register-form, h1 {
+    font-size: 16px;
+  }
+}

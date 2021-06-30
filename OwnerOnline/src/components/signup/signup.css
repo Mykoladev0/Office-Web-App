@@ -1,0 +1,77 @@
+.sign-up .main {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    flex-direction: column;
+    display: flex;
+    background-color: #fff;
+    padding: 26px 15px;
+    border-radius: 20px;
+
+}
+.sign-up .form-area{
+    width: 400px;
+    max-width: 100%;
+    align-self: center;
+}
+
+.title-area {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin:20px 0px;
+}
+
+.title-area h2 {
+    color: #093069;
+    font-weight: 600;
+    margin-bottom: 0px;
+    font-style: normal;
+    margin-top: 0px;
+    font-size: 24px;
+}
+
+.title-area span {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    opacity: 0.6;
+    color: #000E22;
+    line-height: 22px;
+}
+.sign-up .ant-form-item {
+    margin-bottom: 20px !important;
+}
+
+.sign-up .social-login {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.facebook-icon {
+    color: #4267B2 !important;
+}
+
+.sign-up hr {
+    border: 0px;
+    margin-bottom: 30px;
+    height: 1px;
+    background: #DAE0E9;
+    margin-bottom: 24px;
+}
+.description {
+    margin-bottom: 25px;
+}
+.description span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000E22;
+}
+.description span a {
+    font-weight: 600;
+}

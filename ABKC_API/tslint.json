@@ -1,0 +1,54 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint:recommended"
+  ],
+  "rules": {
+    "no-var-keyword": {
+      "severity": "warning"
+    },
+    "prefer-const": {
+      "severity": "warning"
+    },
+    // "semicolon": {
+    //   "severity": "warning"
+    // },
+    "no-trailing-whitespace": {
+      "severity": "warning"
+    },
+    "no-consecutive-blank-lines": {
+      "severity": "warning"
+    },
+    "no-console": {
+      "severity": "warning"
+    },
+    "whitespace": {
+      "severity": "warning"
+    },
+    "no-empty": {
+      "severity": "warning"
+    },
+    "max-line-length": false,
+    "space-before-function-paren": [true, "never"],
+    "no-submodule-imports": false,
+    "quotemark": false,
+    "trailing-comma": false,
+    "ordered-imports": false,
+    "arrow-parens": false,
+    //things that should be removed when i move to webpack
+    "no-namespace": false,
+    "no-reference": false,
+    //***********************************
+    "jsdoc-format": false,
+    "comment-format": false,
+    "variable-name": false,
+    "no-angle-bracket-type-assertion": false,
+    "no-string-literal": false,
+    "one-variable-per-declaration": false,
+    "interface-name": false,
+    "object-literal-shorthand": false,
+    "ban-comma-operator": false,
+    "object-literal-sort-keys": false,
+    "semicolon": [true, "always", "ignore-bound-class-methods"]
+  }
+}

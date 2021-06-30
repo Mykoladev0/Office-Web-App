@@ -1,0 +1,80 @@
+.login .main {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    flex-direction: column;
+    display: flex;
+    background-color: #fff;
+    padding: 55px 15px;
+    border-radius: 20px;
+
+}
+.title-area span {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    opacity: 0.6;
+    color: #000E22;
+    line-height: 22px;
+}
+.login .ant-form-item {
+    margin-bottom: 20px;
+}
+
+.ant-input-affix-wrapper {
+    padding: 0px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+    padding: 4px 11px ;
+    border:  1px solid rgba(9, 48, 105, 0.15);
+    border-radius: 10px;
+}
+.ant-input-suffix {
+    position: absolute;
+    top: 14px;
+    right: 12px;
+}
+.optionsLogin {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.optionsLogin .remember{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000E22;
+}
+.ant-checkbox-inner {
+    width: 20px;
+    height: 20px;
+}
+
+.optionsLogin .forgot {
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #00A3FF;
+}
+
+.login .social-login {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.login hr {
+    border: 0px;
+    margin-bottom: 30px;
+    height: 1px;
+    background: #DAE0E9;
+    margin-bottom: 24px;
+}

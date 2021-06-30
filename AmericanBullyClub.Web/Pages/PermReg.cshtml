@@ -1,0 +1,33 @@
+﻿@page
+@model PermRegModel;
+@{
+    ViewData["Title"] = "American Bully Kennel Club";
+}
+
+<div class="text-right">
+    <h1 class="display-4">Test project for PDFSharp task</h1>
+  <div class="input-group">
+    <form method="POST">
+        <div class="text-left">
+        <label>Print with background</label>
+        <input type="checkbox" asp-for="PrintWithBackground" />
+        <br>
+        <div>Breed<input asp-for="Pedigree.Breed" /></div>
+        <div>Birthdate <input asp-for="Pedigree.DateOfBirth" /></div>
+        <div>ABKCNo <input asp-for="Pedigree.ABKCNumber" /></div>
+        <div>Sex<input asp-for="Pedigree.Gender" /></div>
+        <div>Color<input asp-for="Pedigree.Color" /></div>
+        <div>Microchip no<input asp-for="Pedigree.MicrochipNumber" /></div>
+        <div>Sire name <input asp-for="Pedigree.Sire.Name" /></div>
+        <div>Sire ABKCNO. <input asp-for="Pedigree.Sire.ABKCNumber" /></div>
+        <div>Dam name date <input asp-for="Pedigree.Dam.Name" /></div>
+        <div>Dam ABKCNO. <input asp-for="Pedigree.Dam.ABKCNumber" /></div>
+        <div>Ownername<input asp-for="Pedigree.RegisteredOwnerName" /></div>
+        <div>Address1 <input asp-for="Pedigree.Address1" /></div>
+        <div>Address2 <input asp-for="Pedigree.Address2" /></div>
+        <div>Address3 <input asp-for="Pedigree.Address3" /></div>
+        <div>Generation date <input asp-for="Pedigree.PedigreeGeneratedDate" /></div>
+        <input type="submit" />
+        
+    </form>
+</div>

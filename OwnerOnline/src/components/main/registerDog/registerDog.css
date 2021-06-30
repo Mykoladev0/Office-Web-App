@@ -1,0 +1,258 @@
+.register-form {
+    max-width: 844px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px 15px 60px 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+}
+.register-form .ant-input{
+    font-size: 14px;
+    line-height: 19px;
+    color: #000E22; 
+}
+.main-screen .ant-tag{
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-right: 12px;
+    cursor: pointer;  
+}
+.register-form .register-head {
+    display: flex;
+    align-items: center;
+}
+.register-form .register-head h1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000E22;
+    margin-bottom: 0px;
+    flex-grow: 1;
+}
+.register-form .ant-tabs-nav>div {
+    flex-direction: row;
+}
+.register-form .ant-tabs-nav-container {
+    margin-top: 0px;
+}
+.register-form .ant-tabs-nav .ant-tabs-tab {
+    height: 12px;
+    width: 12px;
+    padding: 0px;
+    border-radius: 120px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+    background: #92A6C4;
+}
+.register-form .ant-tabs-nav .ant-tabs-tab-active {
+    background: #093069;
+}
+.ant-tag-2 {
+    background: url("../../../assets/img/dog.png");
+    background-size: cover;
+}
+.ant-tag-2 .anticon-delete {
+    position: absolute;
+    display: none;
+}
+.ant-tag-2:hover .anticon-delete {
+    display: block;
+}
+.ant-delete {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+.ant-tag-2:hover .ant-delete {
+    width: 80px;
+    background: black;
+    opacity: 0.6;
+}
+.ant-tag:hover{
+    opacity: 1;
+}
+.ant-tag .anticon-close {
+    display: none;
+}
+.ant-tag .anticon-delete{
+    font-size: 24px;
+    color: #fff;
+}
+.ant-tag-add {
+    border: 0.5px solid #00A3FF;
+    background: #F2FAFF;
+}
+.ant-tag .anticon-plus {
+    color: #00A3FF;
+    font-size: 26px;
+}
+.main-screen .ant-row{
+   display: block;
+   flex-wrap: wrap;
+   max-width: 397px;
+   width: 100%;
+}
+.main-screen .ant-form {
+    display: flex;
+    flex-wrap:wrap;
+}
+.main-screen .ant-select-single:not(.ant-select-customize-input) .ant-select-selector, .ant-picker {
+    width:100%;
+    height: 50px;
+    border-radius:10px ;
+    padding: 11px;
+    color: #000E22;
+    font-size: 14px;
+    font-weight: normal;
+}
+.ant-picker-input > input::placeholder {
+    font-size: 14px;
+    line-height: 19px;
+    color: #000E22;
+}
+.register-form .upload-content {
+    max-width: 397px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.register-form .ant-upload.ant-upload-drag {
+    border-radius: 10px;
+    height: 160px;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 0px 80px;
+}
+.ant-upload.ant-upload-drag p.ant-upload-drag-icon .anticon {
+    color:rgba(9, 48, 105, 0.3);
+}
+.ant-upload-hint {
+    color: #646D79;
+    font-size: 12px;
+    line-height: 16px;
+}
+.ant-upload-hint span {
+    color: #00A3FF;
+}
+.upload-content>span {
+    display: flex;
+}
+.register-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.register-footer-label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+}
+.register-footer-label label {
+    font-size: 12px;
+    line-height: 16px;
+    color: #000E22;
+    opacity: 0.6;
+}
+  .register-footer-label h2 {
+    font-weight: 650;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+  }
+.register-footer .btn-register {
+    width: 150px;
+    max-width: 100%;
+    background: #093069;
+    border-radius: 10px;
+    border: none;
+    margin-top: 7px;
+    margin-left: 100px;
+}
+.register-footer .btn-register span {
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+}
+.mr {
+    margin-right: 20px;
+}
+.btn-register {
+    width: 100%;
+    max-width: 397px;
+    height: 50px;
+    background: #F2FAFF;
+    border: 2px solid #00A3FF;
+    border-radius: 10px;
+    margin-top: 32px;
+}
+.btn-register span {
+    color: #00A3FF;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+.btn-register:hover {
+    background: #F2FAFF;
+    color:#00A3FF ;
+}
+.register-form hr {
+    border: 1px solid #DAE0E9;
+    height: 0px;
+    /* margin-top: 40px; */
+}
+.form-row {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+.payment-form .date-select .ant-form-item-label > label{
+    visibility: hidden;
+}
+.register-form .ant-radio-group {
+    margin-top: 28px;
+    margin-bottom: 10px;
+}
+.register-form .ant-radio-group .ant-radio-wrapper {
+    font-size: 14px;
+    color: #000E22;
+    font-weight: 500;
+}
+.payment-form .select-date {
+    max-width:189px;
+}
+.payment-form .ant-form-item {
+    margin-bottom: 20px;
+}
+@media only screen and (max-width:576px){
+    .register-form {
+        padding-bottom: 15px;
+    }
+    .form-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+.mr {
+    margin-right: 0px;
+  }
+
+  .main-screen .ant-upload.ant-upload-drag {
+    padding: 0px;
+  }
+  .btn-register {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .register-footer-label h2 {
+    font-size: 15px;
+  }
+  .register-form .register-head h1 {
+      font-size: 18px;
+  }
+}

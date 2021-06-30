@@ -1,0 +1,1556 @@
+{
+  name: "GRIFFIN'S GIN AND JUICE ",
+  breed: "AMERICAN BULLY",
+  abkcNumber: "126,294",
+  gender: "Male",
+  dateOfBirth: "2011-11-14T00:00:00",
+  color: "BLACK TAN WHITE",
+  microchipNumber: "",
+  numberOfPups: 0,
+  registeredOwnerName: null,
+  address1: "1538 MIRA LAGO CIRCLE",
+  address2: "",
+  address3: "",
+  sireOwnerName: "",
+  damOwnerName: "MARIO GARCIA JR",
+  sire: {
+    name: "ZULLOU'S GOTTI",
+    abkcNumber: null,
+    color: "BLUE BRINDLE",
+    numberOfPups: 21,
+    certifications: [],
+    sire: {
+      name: "MUGLESTONS ZULLOU",
+      abkcNumber: null,
+      color: "BLUE WHITE",
+      numberOfPups: 0,
+      certifications: [],
+      sire: {
+        name: "VALDEZ' BLUE TIGER SHARK",
+        abkcNumber: "100,102",
+        color: "BLUE WHITE",
+        numberOfPups: 0,
+        certifications: [],
+        sire: {
+          name: "CHAOS BLUE TIGGER",
+          abkcNumber: null,
+          color: "BLUE",
+          numberOfPups: 0,
+          certifications: [],
+          sire: {
+            name: "KAMARIE'S WELCOME TO TF DOOKU",
+            abkcNumber: null,
+            color: "BLUE WHITE",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "BLUE DEVIL",
+              abkcNumber: null,
+              color: "BLUE WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "NOTORIOUS JUAN GOTTY",
+                abkcNumber: "100,137",
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "MIKELAND'S BLUE MONKEY",
+                abkcNumber: null,
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "ABLEPAWS BLUE PASSION",
+              abkcNumber: null,
+              color: "BLUE WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "CA. BLUSTARS SIMBA JR OF JULIACHS",
+                abkcNumber: null,
+                color: "BLUE FAWN",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "ABLEPAWS BLUE CORAL",
+                abkcNumber: null,
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          },
+          dam: {
+            name: "BCB DENALI",
+            abkcNumber: null,
+            color: "BLUE FAWN",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "SGK/BEK'S KONAN EL BARBARO",
+              abkcNumber: "102,769",
+              color: "FAWN WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "RAZORS EDGE/SGKS LIL BOY BLUE",
+                abkcNumber: "101,056",
+                color: "BLUE BRINDLE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "AK'S BWKS DEJA VOO II R.E.",
+                abkcNumber: "102,774",
+                color: "BLUE BRINDLE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "ROYAL BLUE GEN'S GYPSY",
+              abkcNumber: null,
+              color: "-",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "PEACOCK'S TWISTER",
+                abkcNumber: null,
+                color: "-",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "CERVANTES' DEJA VU QUEEN",
+                abkcNumber: null,
+                color: "",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          }
+        },
+        dam: {
+          name: "HOPS FRIEDS HEAVYHITTERS SANJAY",
+          abkcNumber: null,
+          color: "BLUE BRINDLE",
+          numberOfPups: 0,
+          certifications: [],
+          sire: {
+            name: "DIEGO'S SAMSON DEVILSDEN",
+            abkcNumber: "117,901",
+            color: "BLUE BRINDLE WHITE",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "RAZORS EDGE BULLSEYE MOST WNTD",
+              abkcNumber: "100,237",
+              color: "BLUE WHITE",
+              numberOfPups: 6,
+              certifications: [],
+              sire: {
+                name: "RAZORSEDGE CLP'S SHORTSHOT",
+                abkcNumber: "100,078",
+                color: "BLACK WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "RAZORS EDGE SIPPIN REMY",
+                abkcNumber: "100,041",
+                color: "BLUE FAWN",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "RAZORS EDGE DIEGO'S NASTY NEELA",
+              abkcNumber: null,
+              color: "BLUE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "RAZORS EDGE PURPLE ROSE OF CAIRO",
+                abkcNumber: "100,001",
+                color: "BLUE BRINDLE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "RAZORS EDGE IN'NA BLUE LAGOON",
+                abkcNumber: null,
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          },
+          dam: {
+            name: "RAZORS EDGE LIL BLACK BUCK'ETTE",
+            abkcNumber: null,
+            color: "BLACK",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "RAZORSEDGE CLP'S SHORTSHOT",
+              abkcNumber: "100,078",
+              color: "BLACK WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "RAZORS EDGE NEVILS BUCKSHOT",
+                abkcNumber: "100,014",
+                color: "BLACK WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "RAZORS EDGE INNA RAGE",
+                abkcNumber: "100,013",
+                color: "BLUE BRINDLE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "RAZORS EDGE DIAMOND INNA RUFF",
+              abkcNumber: "100,033",
+              color: "BLUE WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "RAZORSEDGE TRUEBLUE'S GLORYBOY",
+                abkcNumber: "100,031",
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "RAZORS EDGE LIL BLUE KOALA",
+                abkcNumber: "100,032",
+                color: "BLUE BRINDLE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          }
+        }
+      },
+      dam: {
+        name: "MUGLESTON'S BLUE COVER GIRL",
+        abkcNumber: null,
+        color: "BLUE WHITE",
+        numberOfPups: 0,
+        certifications: [],
+        sire: {
+          name: "RAZORS EDGE BULLSEYE MOST WNTD",
+          abkcNumber: "100,237",
+          color: "BLUE WHITE",
+          numberOfPups: 6,
+          certifications: [],
+          sire: {
+            name: "RAZORSEDGE CLP'S SHORTSHOT",
+            abkcNumber: "100,078",
+            color: "BLACK WHITE",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "RAZORS EDGE NEVILS BUCKSHOT",
+              abkcNumber: "100,014",
+              color: "BLACK WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "RAZORS EDGE THROWIN KNUCKLES",
+                abkcNumber: "100,017",
+                color: "BLUE PIEBALD",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "RAZORS EDGE EVANS RED LADE",
+                abkcNumber: "100,164",
+                color: "FAWN WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "RAZORS EDGE INNA RAGE",
+              abkcNumber: "100,013",
+              color: "BLUE BRINDLE WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "KIMMAR'S CATT MAN ROO",
+                abkcNumber: "100,009",
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "PAM'S WHITEPATH CHINA BLACK",
+                abkcNumber: "100,010",
+                color: "BLACK WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          },
+          dam: {
+            name: "RAZORS EDGE SIPPIN REMY",
+            abkcNumber: "100,041",
+            color: "BLUE FAWN",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "RAZORS EDGE STACKING DOMINO",
+              abkcNumber: "100,081",
+              color: "BLUE WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "PERDUES RAZORS EDGE DINERO",
+                abkcNumber: "100,083",
+                color: "FAWN WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "RAZORS EDGE TANGERINE DREAM",
+                abkcNumber: "100,124",
+                color: "RED BLACK WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "RAZORS EDGE BLUE TOPAZ OF DF",
+              abkcNumber: null,
+              color: "BLUE WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "RAZORS EDGE THROWIN KNUCKLES",
+                abkcNumber: "100,017",
+                color: "BLUE PIEBALD",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "RAZORS EDGE EVANS RED LADE",
+                abkcNumber: "100,164",
+                color: "FAWN WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          }
+        },
+        dam: {
+          name: "RIVERCITY'S TOPCLASS KIANA",
+          abkcNumber: "100,422",
+          color: "BLUE",
+          numberOfPups: 0,
+          certifications: [],
+          sire: {
+            name: "BAYTOWN RIVERCITY CHIVAS",
+            abkcNumber: null,
+            color: "BLUE FAWN",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "WHATLEY'S LIL TRUMAN",
+              abkcNumber: null,
+              color: "BLUE FAWN",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "LIL SIERRA PERCY PENNY PACKER",
+                abkcNumber: null,
+                color: "FAWN WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "BAYTOWNS WHATLEYS WISHES",
+                abkcNumber: null,
+                color: "(unknown)",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "BAYTOWN'S STRICKS AUBY TRUE 2 U",
+              abkcNumber: null,
+              color: "BROWN BLACK",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "GAFF'S SUE'S BABY GUS",
+                abkcNumber: null,
+                color: "RED FAWN WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "GAFFS NORTHERN CA GRACE",
+                abkcNumber: null,
+                color: "BROWN BLACK",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          },
+          dam: {
+            name: "COMPTON'S BLUE CHOLA DELILAH",
+            abkcNumber: null,
+            color: "WHITE BLUE",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "COMPTON'S BOGIE",
+              abkcNumber: null,
+              color: "BLUE WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "CANDY'S AZUMAH",
+                abkcNumber: null,
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "NEVADA'S OTTA MAKE ME BLUE",
+                abkcNumber: null,
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "REDWOOD'S-COMPTON'S KAHLUA N CREAM",
+              abkcNumber: null,
+              color: "BROWN WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "REDWOODS SHADYTOWN PUD",
+                abkcNumber: null,
+                color: "FAWN WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "SHADYTOWNS HOLY SMOKES",
+                abkcNumber: null,
+                color: "(unknown)",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          }
+        }
+      }
+    },
+    dam: {
+      name: "SARGENT'S DIAMOND",
+      abkcNumber: null,
+      color: "BLUE WHITE",
+      numberOfPups: 0,
+      certifications: [],
+      sire: {
+        name: "WHITE'S INSANE HURRICANE",
+        abkcNumber: null,
+        color: "-",
+        numberOfPups: 0,
+        certifications: [],
+        sire: {
+          name: "HUGHZEE'S PRETTY BOY BLUE",
+          abkcNumber: null,
+          color: "(unknown)",
+          numberOfPups: 0,
+          certifications: [],
+          sire: {
+            name: "WATCHDOG'S BEELZEBUB",
+            abkcNumber: null,
+            color: "",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "KENNEDY'S BLUE SKY",
+              abkcNumber: null,
+              color: "BLUE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "GOTTYLINE'S 21 BLACKJACK",
+                abkcNumber: "100,348",
+                color: "BLACK WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "GOTTYLINE'S SHEBA",
+                abkcNumber: null,
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "CALICARTELS GAME",
+              abkcNumber: null,
+              color: "BLUE FAWN",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "MONSTER JOJOLA",
+                abkcNumber: null,
+                color: "BLUE FAWN",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "BABY BLUE",
+                abkcNumber: null,
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          },
+          dam: {
+            name: "HUGHZEE'S BOSSY BOO",
+            abkcNumber: null,
+            color: null,
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "KAMARIE'S WELCOME TO TF DOOKU",
+              abkcNumber: null,
+              color: "BLUE WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "BLUE DEVIL",
+                abkcNumber: null,
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "ABLEPAWS BLUE PASSION",
+                abkcNumber: null,
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "ROYALTY'S BODACIOUS",
+              abkcNumber: null,
+              color: "BRINDLE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "RAZOREDGE BOWWOW GAMEOVER RED",
+                abkcNumber: "100,049",
+                color: "RED BRINDLE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "ROYALTY'S FELONY OF ROCKSTREAM",
+                abkcNumber: null,
+                color: "BLUE BRINDLE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          }
+        },
+        dam: {
+          name: "WHITE'S SWEET JUSTICE",
+          abkcNumber: null,
+          color: null,
+          numberOfPups: 0,
+          certifications: [],
+          sire: null,
+          dam: null
+        }
+      },
+      dam: {
+        name: "TAYLOR'S MY BLUE ANGEL",
+        abkcNumber: null,
+        color: "-",
+        numberOfPups: 0,
+        certifications: [],
+        sire: {
+          name: "HOOKS' BIG BLUE TANK",
+          abkcNumber: null,
+          color: null,
+          numberOfPups: 0,
+          certifications: [],
+          sire: {
+            name: "HIGH ROLLERS JUNIORS LEGACY",
+            abkcNumber: null,
+            color: "BRINDLE WHITE",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "THOMAS' SHEBA",
+              abkcNumber: null,
+              color: "(unknown)",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "SILVERBULLETS COVER GIRL",
+                abkcNumber: null,
+                color: "WHITE BLUE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "MOODY'S BLUE COBRA KAI",
+                abkcNumber: "103,307",
+                color: "BLUE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "HRK'S PANDA",
+              abkcNumber: "102,126",
+              color: "BLACK WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "OHOOPEE RIVERS RIO OF HRK",
+                abkcNumber: null,
+                color: "BLUE FAWN",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "MOUNTAIN SIDE CREEPING SHADOW",
+                abkcNumber: null,
+                color: "BRINDLE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          },
+          dam: {
+            name: "MW LITTLE MAMA",
+            abkcNumber: null,
+            color: "WHITE BLUE",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "CHAIN GANG SILVER",
+              abkcNumber: null,
+              color: "BLUE FAWN WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "BULLSEYE SANDMAN AT UNLEASED",
+                abkcNumber: "103,511",
+                color: "BLUE FAWN",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "RUFF-TOWNS ELEKTRAS BLUE GEM",
+                abkcNumber: null,
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "MEATHEAD'S CHICO",
+              abkcNumber: null,
+              color: "BLUE WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "ESOTERIC'S DUKE",
+                abkcNumber: null,
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "ROSALES' ARIES",
+                abkcNumber: "103,928",
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          }
+        },
+        dam: {
+          name: "TAYLOR'S GINGERSNAP",
+          abkcNumber: null,
+          color: null,
+          numberOfPups: 0,
+          certifications: [],
+          sire: null,
+          dam: null
+        }
+      }
+    }
+  },
+  dam: {
+    name: "COX'TRONG TTB'S KUMO ",
+    abkcNumber: "112,965",
+    color: "BLUE WHITE",
+    numberOfPups: 0,
+    certifications: [],
+    sire: {
+      name: "NOTORIOUS PRINCESS PRADA ",
+      abkcNumber: "112,987",
+      color: "BLUE BRINDLE",
+      numberOfPups: 0,
+      certifications: [],
+      sire: {
+        name: "STUART'S BO OF BENEDICT",
+        abkcNumber: null,
+        color: "-",
+        numberOfPups: 9,
+        certifications: [],
+        sire: null,
+        dam: null
+      },
+      dam: {
+        name: "WOODARDS DIESEL",
+        abkcNumber: "109,325",
+        color: "BLUE",
+        numberOfPups: 0,
+        certifications: [],
+        sire: {
+          name: "MEDINAS BUDDY BLUE EUBANKS",
+          abkcNumber: null,
+          color: "FAWN WHITE",
+          numberOfPups: 0,
+          certifications: [],
+          sire: {
+            name: "(unregistered puppy # 104342)",
+            abkcNumber: "104,342",
+            color: "",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "QETLAH'S MENU",
+              abkcNumber: "101,283",
+              color: "BLUE",
+              numberOfPups: 6,
+              certifications: [],
+              sire: {
+                name: "BLUE PRIDE TECH-9 OF BLUEFORCE",
+                abkcNumber: "102,194",
+                color: "BLUE BRINDLE WHITE",
+                numberOfPups: 12,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "QETLAH'S HET-HERU",
+                abkcNumber: null,
+                color: "BLUE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "HEATH'S CAPONE",
+              abkcNumber: null,
+              color: "-",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "MEALER'S JOHNNY RINGO",
+                abkcNumber: null,
+                color: "",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "MEALER'S BLUE CHEROKEE",
+                abkcNumber: null,
+                color: "",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          },
+          dam: {
+            name: "(unregistered puppy # 104343)",
+            abkcNumber: "104,343",
+            color: "",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "QETLAH'S MENU",
+              abkcNumber: "101,283",
+              color: "BLUE",
+              numberOfPups: 6,
+              certifications: [],
+              sire: {
+                name: "BLUE PRIDE TECH-9 OF BLUEFORCE",
+                abkcNumber: "102,194",
+                color: "BLUE BRINDLE WHITE",
+                numberOfPups: 12,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "QETLAH'S HET-HERU",
+                abkcNumber: null,
+                color: "BLUE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "HEATH'S CAPONE",
+              abkcNumber: null,
+              color: "-",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "MEALER'S JOHNNY RINGO",
+                abkcNumber: null,
+                color: "",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "MEALER'S BLUE CHEROKEE",
+                abkcNumber: null,
+                color: "",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          }
+        },
+        dam: {
+          name: "ROCKY REDDEN",
+          abkcNumber: null,
+          color: "FAWN",
+          numberOfPups: 0,
+          certifications: [],
+          sire: {
+            name: "WESTEXBLUES KIWI RE",
+            abkcNumber: "103,800",
+            color: "FAWN WHITE",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "ROSSI'S MERCY",
+              abkcNumber: null,
+              color: null,
+              numberOfPups: 0,
+              certifications: [],
+              sire: null,
+              dam: null
+            },
+            dam: {
+              name: "TOWERY'S DIAMOND",
+              abkcNumber: null,
+              color: null,
+              numberOfPups: 7,
+              certifications: [],
+              sire: null,
+              dam: null
+            }
+          },
+          dam: {
+            name: "(unregistered puppy # 102002)",
+            abkcNumber: "102,002",
+            color: "",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "SACTOWN'S PHAT BOI",
+              abkcNumber: null,
+              color: "BLUE WHITE",
+              numberOfPups: 16,
+              certifications: [],
+              sire: {
+                name: "SACTOWN'S BINALEY'S KING SABRE",
+                abkcNumber: null,
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "NEW TROIJAN'S BIG MAMMA",
+                abkcNumber: null,
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "WCB'S LEINANI'S BLUE LEXUS",
+              abkcNumber: "101,991",
+              color: "BLUE",
+              numberOfPups: 7,
+              certifications: [],
+              sire: {
+                name: "SACTOWN'S BINALEY'S KING SABRE",
+                abkcNumber: null,
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "EAGLE ROCK'S DINALI",
+                abkcNumber: null,
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          }
+        }
+      }
+    },
+    dam: {
+      name: "MODIFIED BB MISTERIO",
+      abkcNumber: "112,985",
+      color: "BRINDLE",
+      numberOfPups: 0,
+      certifications: [],
+      sire: {
+        name: "DIEGO'S DOING BIG THINGS",
+        abkcNumber: "105,144",
+        color: "BLUE BRINDLE WHITE",
+        numberOfPups: 6,
+        certifications: [],
+        sire: {
+          name: "RAZORS EDGE BULLSEYE MOST WNTD",
+          abkcNumber: "100,237",
+          color: "BLUE WHITE",
+          numberOfPups: 6,
+          certifications: [],
+          sire: {
+            name: "RAZORSEDGE CLP'S SHORTSHOT",
+            abkcNumber: "100,078",
+            color: "BLACK WHITE",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "RAZORS EDGE NEVILS BUCKSHOT",
+              abkcNumber: "100,014",
+              color: "BLACK WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "RAZORS EDGE THROWIN KNUCKLES",
+                abkcNumber: "100,017",
+                color: "BLUE PIEBALD",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "RAZORS EDGE EVANS RED LADE",
+                abkcNumber: "100,164",
+                color: "FAWN WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "RAZORS EDGE INNA RAGE",
+              abkcNumber: "100,013",
+              color: "BLUE BRINDLE WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "KIMMAR'S CATT MAN ROO",
+                abkcNumber: "100,009",
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "PAM'S WHITEPATH CHINA BLACK",
+                abkcNumber: "100,010",
+                color: "BLACK WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          },
+          dam: {
+            name: "RAZORS EDGE SIPPIN REMY",
+            abkcNumber: "100,041",
+            color: "BLUE FAWN",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "RAZORS EDGE STACKING DOMINO",
+              abkcNumber: "100,081",
+              color: "BLUE WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "PERDUES RAZORS EDGE DINERO",
+                abkcNumber: "100,083",
+                color: "FAWN WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "RAZORS EDGE TANGERINE DREAM",
+                abkcNumber: "100,124",
+                color: "RED BLACK WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "RAZORS EDGE BLUE TOPAZ OF DF",
+              abkcNumber: null,
+              color: "BLUE WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "RAZORS EDGE THROWIN KNUCKLES",
+                abkcNumber: "100,017",
+                color: "BLUE PIEBALD",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "RAZORS EDGE EVANS RED LADE",
+                abkcNumber: "100,164",
+                color: "FAWN WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          }
+        },
+        dam: {
+          name: "RAZORS EDGE DIEGO'S NASTY NEELA",
+          abkcNumber: null,
+          color: "BLUE",
+          numberOfPups: 0,
+          certifications: [],
+          sire: {
+            name: "RAZORS EDGE PURPLE ROSE OF CAIRO",
+            abkcNumber: "100,001",
+            color: "BLUE BRINDLE",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "CLOVERHILLS WATUKA SPIRIT",
+              abkcNumber: "100,005",
+              color: "MAHOGANY BRINDLE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "CLOVERHILL'S IMA SURE THING",
+                abkcNumber: "100,007",
+                color: "BRINDLE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "CLOVERHILLS INDIAN PAINTBRUSH",
+                abkcNumber: "100,006",
+                color: "RED BRINDLE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "RAZORS EDGE SADEYS PADDINGTON",
+              abkcNumber: "100,015",
+              color: "BLUE FAWN",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "JACKSON'S GMJ MR. BROOKS",
+                abkcNumber: "100,008",
+                color: "BLUE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "RAZORS EDGE SILVER SADEY OF ML",
+                abkcNumber: "100,016",
+                color: "BLUE BRINDLE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          },
+          dam: {
+            name: "RAZORS EDGE IN'NA BLUE LAGOON",
+            abkcNumber: null,
+            color: "BLUE WHITE",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "RAZORS EDGE THROWIN KNUCKLES",
+              abkcNumber: "100,017",
+              color: "BLUE PIEBALD",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "KIMMAR'S CATT MAN ROO",
+                abkcNumber: "100,009",
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "PAM'S WHITEPATH CHINA BLACK",
+                abkcNumber: "100,010",
+                color: "BLACK WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "RAZORS EDGE KIMS BLUE DAKOTA",
+              abkcNumber: "100,141",
+              color: "BLUE WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "JACKSON'S GMJ MR. BROOKS",
+                abkcNumber: "100,008",
+                color: "BLUE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "RAZORS EDGE SILVER SADEY OF ML",
+                abkcNumber: "100,016",
+                color: "BLUE BRINDLE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          }
+        }
+      },
+      dam: {
+        name: "THUGLINE FELONY OF 35 SOUTH",
+        abkcNumber: null,
+        color: "BLUE WHITE",
+        numberOfPups: 5,
+        certifications: [],
+        sire: {
+          name: "TREVINO'S NOTORIOUS THUG",
+          abkcNumber: "146,135",
+          color: "FAWN BLUE WHITE",
+          numberOfPups: 3,
+          certifications: [],
+          sire: {
+            name: "BENEDICT'S BULLY BLUE WINKLE",
+            abkcNumber: null,
+            color: "BLUE WHITE",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "WESTBROOK'S CAMACHO DO GOOD",
+              abkcNumber: null,
+              color: "RED RED NOSE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "GLASS' HENRY DO GOOD",
+                abkcNumber: null,
+                color: "WHITE BLACK",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "SISTER DO GOOD",
+                abkcNumber: null,
+                color: "RED WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "MONSTER BABY",
+              abkcNumber: null,
+              color: "BLUE WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "NEWTROIJAN'S MONSTER G",
+                abkcNumber: null,
+                color: "BLACK WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "RAZORS EDGE RAYNA",
+                abkcNumber: null,
+                color: "BLUE BRINDLE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          },
+          dam: {
+            name: "BYRD'S SILVER CODEBLUE",
+            abkcNumber: null,
+            color: "BLUE WHITE",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "MOORE'S SIMBA BLUEGOOD",
+              abkcNumber: null,
+              color: "FAWN WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "BLUEGOOD'S GRAND FUBA",
+                abkcNumber: null,
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "H-TOWN BEST KRYPTONITE'S XENA",
+                abkcNumber: "104,041",
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "MOORE'S SHOCKA BLUEGOOD",
+              abkcNumber: null,
+              color: "BLUE WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "CHAINGANG'S STAR FROST BLU",
+                abkcNumber: null,
+                color: null,
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "KACEYES BROOKLYN MAGNUM",
+                abkcNumber: "102,942",
+                color: "BLUE BRINDLE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          }
+        },
+        dam: {
+          name: "MARQUEZ' KALI",
+          abkcNumber: null,
+          color: "BLUE WHITE",
+          numberOfPups: 0,
+          certifications: [],
+          sire: {
+            name: "NEW TROIJAN'S DILLENGER",
+            abkcNumber: null,
+            color: "BLUE WHITE",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "NOTORIOUS JUAN GOTTY",
+              abkcNumber: "100,137",
+              color: "BLUE WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "GRAY LINE'S RAIDER II",
+                abkcNumber: null,
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "GREY LINE'S CALEE LOVE BLUEGOOD",
+                abkcNumber: null,
+                color: "FAWN WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "RODNEY'S BLUE TAJAH",
+              abkcNumber: null,
+              color: "BLUE FAWN WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "RODNEY'S CLYDE BINGLEY",
+                abkcNumber: null,
+                color: "BLACK WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "ABOI'S CIANGA",
+                abkcNumber: "163,338",
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          },
+          dam: {
+            name: "PETERSON'S NTK PRETTY PEARL",
+            abkcNumber: null,
+            color: "BLUE WHITE",
+            numberOfPups: 0,
+            certifications: [],
+            sire: {
+              name: "CERTIFIED PUZZLER P-4",
+              abkcNumber: null,
+              color: "WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "GRAY LINE'S RAIDER II",
+                abkcNumber: null,
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "SILVER SATIN",
+                abkcNumber: null,
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            },
+            dam: {
+              name: "CERTIFIED BRIANNA BLUEGOOD P-1",
+              abkcNumber: null,
+              color: "BLUE WHITE",
+              numberOfPups: 0,
+              certifications: [],
+              sire: {
+                name: "GRAY LINE'S RAIDER II",
+                abkcNumber: null,
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              },
+              dam: {
+                name: "TONY'S SHOWTIME",
+                abkcNumber: null,
+                color: "BLUE WHITE",
+                numberOfPups: 0,
+                certifications: [],
+                sire: null,
+                dam: null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  pedigreeGeneratedDate: "2019-02-22T15:35:57.7039834Z",
+  dogId: 51391
+}

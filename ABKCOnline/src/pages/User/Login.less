@@ -1,0 +1,158 @@
+@import '~antd/lib/style/themes/default.less';
+
+.main {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+
+  display: flex;
+
+  @media (max-width: 768px) {
+    max-width: 400px;
+    flex-direction: column;
+  }
+
+  a{
+    color: rgba(255, 255, 255, 0.65);
+    &:hover{
+      color: rgba(255, 255, 255, 0.85);
+      text-decoration: none;
+    }
+  }
+
+  footer{
+    color: rgba(255, 255, 255, 0.65);
+  }
+
+  :global{
+    .loginLeft{
+      flex: 0 0 250px;
+      border-right: 1px solid rgba(255, 255, 255, 0.15);
+      // background-image: url('../../assets//img/abkc_logo.png');
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img{
+        width: 110px;
+      }
+    }
+    .loginRight{
+      flex: 1 1 auto;
+      padding-left: 12%;
+    }
+    .optionsLogin{
+      display: flex;
+      justify-content: space-between;
+    }
+    @media (max-width: 768px) {
+      .loginLeft{
+        border-right: none;
+        flex-basis: 140px;
+        img{
+          width: 90px;
+        }
+      }
+      .loginRight{
+        padding: 0px 5%;
+      }
+    }
+  }
+
+  @media screen and (max-width: @screen-sm) {
+    width: 95%;
+  }
+  :global {
+    .ant-form-explain-holder{
+      line-height: 0 !important;
+      span{
+        line-height: 1.5 !important;
+      }
+    }
+    .antd-pro-components-login-index-submit{
+      margin-top: 15px !important;
+    }
+  }
+
+  .loginFormControl {
+    :global {
+      .antd-pro-components-login-index-prefixIcon{
+        color: white
+      }
+    }
+    .ant-btn{
+      height: 46px !important;
+    }
+    input{
+    background: transparent;
+    border-color: #a7adb0 !important;
+    color: #b3b7ba !important;
+    padding-left: 35px !important;
+    &:hover{
+      border-color: #a7adb0 !important;
+    }
+    &:focus{
+      border-color: #0091fb !important;
+      box-shadow: none !important;
+    }
+  }
+}
+
+  .textCenter{
+    text-align: center;
+  }
+
+  .titleLogin{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+  
+    &:before{
+      content: '';
+      position: absolute;
+      display: block;
+      width: 35px;
+      top: 50%;
+      right: calc( 100% + 5px);
+      height: 1px;
+      background: #fff;
+      opacity: 0.35;
+    }
+    &:after{
+      content: '';
+      position: absolute;
+      display: block;
+      width: 35px;
+      top: 50%;
+      left: calc( 100% + 5px);
+      height: 1px;
+      background: #fff;
+      opacity: 0.35;
+    }
+  }
+
+  .icon {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.2);
+    margin-left: 16px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: color 0.3s;
+
+    &:hover {
+      color: @primary-color;
+    }
+  }
+
+  .other {
+    text-align: left;
+    line-height: 22px;
+
+    .register {
+      float: right;
+    }
+  }
+}
+

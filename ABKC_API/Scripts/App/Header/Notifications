@@ -1,0 +1,40 @@
+<ClickAwayListener onClickAway={() => this.setState({ open: false })}>
+<Grow in={open} style={{ transformOrigin: '0 0 0' }}>
+  {/*id="menu-list"*/}
+  {/* This is where alerts will be populated, probably a separate component! */}
+  <Paper className={classes.dropdown}>
+    <MenuList role="menu">
+      <MenuItem
+        onClick={() => this.setState({ open: false })}
+        className={dropdownItem}
+      >
+        {'Mike John responded to your email'}
+      </MenuItem>
+      <MenuItem
+        onClick={() => this.setState({ open: false })}
+        className={dropdownItem}
+      >
+        {'You have 5 new tasks'}
+      </MenuItem>
+      <MenuItem
+        onClick={() => this.setState({ open: false })}
+        className={dropdownItem}
+      >
+        {"You're now friends with Andrew"}
+      </MenuItem>
+      <MenuItem
+        onClick={() => this.setState({ open: false })}
+        className={dropdownItem}
+      >
+        {'Another Notification'}
+      </MenuItem>
+      <MenuItem
+        onClick={() => this.setState({ open: false })}
+        className={dropdownItem}
+      >
+        {'Another One'}
+      </MenuItem>
+    </MenuList>
+  </Paper>
+</Grow>
+</ClickAwayListener>

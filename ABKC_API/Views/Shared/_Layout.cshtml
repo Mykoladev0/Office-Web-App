@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BullsBluffCore</title>
+
+    <environment include="Development">
+        <!-- <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" /> -->
+        <link rel="stylesheet" href="~/wwwroot/css/site.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" />
+    </environment>
+    <environment exclude="Development">
+        <!-- <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css" asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css" asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
+        /> -->
+        <!--site.css should include bootstrap because of the site.tsx file-->
+        <link rel="stylesheet" href="~/wwwroot/css/site.css" asp-append-version="true" />
+    </environment>
+    <link rel="apple-touch-icon" sizes="180x180" href="~/wwwroot/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/wwwroot/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/wwwroot/favicons/favicon-16x16.png">
+    <link rel="manifest" href="~/wwwroot/favicons/site.webmanifest">
+    <link rel="mask-icon" href="~/wwwroot/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="~/wwwroot/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="~/wwwroot/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff"> @RenderSection("Css", required: false)
+</head>
+
+<body>
+    @RenderBody()
+
+    <environment include="Development">
+        <!-- <script src="~/wwwroot/js/app.js" asp-append-version="true"></script> -->
+        <script src="~/wwwroot/js/site.js" asp-append-version="true"></script>
+
+    </environment>
+    <environment exclude="Development">
+        <!-- <script src="~/wwwroot/js/app.js" asp-append-version="true"></script> -->
+
+        <script src="~/wwwroot/js/site.js" asp-append-version="true"></script>
+        <!-- <script src="~/js/main.build.js" asp-append-version="true"></script> -->
+    </environment>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZQE9wSeI05XgqxPle3E-S7hbc4W-Dpww&libraries=places"></script>
+
+    <script type="text/javascript">
+        if (!window.coreApp) {
+            window.coreApp = {};
+        }
+
+        window.coreApp = {
+            baseUrl: '@Url.Content("~/")',
+            baseApiUrl: '@Url.Content("~/api")',
+            dogsApi: {
+                baseUrl: '@Url.Content("~/api/dogs")'
+            },
+            breedsApi: {
+                baseUrl: '@Url.Content("~/api/breeds")'
+            },
+            ownersApi: {
+                baseUrl: '@Url.Content("~/api/owners")'
+            },
+            littersApi: {
+                baseUrl: '@Url.Content("~/api/litters")'
+            },
+            showsApi: {
+                baseUrl: '@Url.Content("~/api/shows")'
+            }
+        };
+    </script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+
+</html>

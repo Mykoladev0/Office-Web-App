@@ -1,0 +1,236 @@
+.show-detail {
+    max-width: 924px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 0px 15px;
+}
+.show-detail a {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 15px;
+}
+.show-detail a .anticon-arrow-left{
+    margin-right: 10px;
+}
+.show-detail-content {
+    background: #ffffff;
+    display: flex;
+    border-radius: 10px;
+}
+.show-detail-img {
+    max-width: 440px;
+    width: 100%;
+    height: 752px;
+}
+.show-detail-img img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+}
+.show-detail-content .date {
+    display: flex;
+    margin-bottom: 15px;
+}
+.show-detail-content .date span {
+    color: #00A3FF;
+    font-size: 12px;
+    font-weight: 700;
+}
+.show-detail-content .date hr {
+    width: 30px;
+    height: 2px;
+    background: #00A3FF;
+    margin: 10px;
+    border: none;
+}
+.show-detail-content .ant-typography strong {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 50px;
+    margin-bottom: 12px;
+}
+.show-detail-content .btn-card {
+    background-color: #627A9E;
+    max-width: 160px;
+    width: 100%;
+    height: 50px;
+    margin-top: 24px;
+}
+.show-detail-content .btn-card span {
+    margin-bottom: 0px;
+    color: #ffffff;
+}
+.show-detail-content .card-detail .mb {
+    margin-bottom: 20px;
+}
+.show-modal, .confirm-modal, .cancel-modal {
+    max-width: 800px;
+    width: 100% !important;
+    margin: 0px;
+    float: right;
+    top: 0px;
+    height: 100vh;
+    max-width: 800px;
+}
+.show-modal .modal-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.show-modal .ant-modal-header {
+    padding: 0px;
+    border-bottom: 0px;
+}
+.show-modal .ant-modal-content {
+    border-radius: 0px;
+    box-shadow: none;
+    height: 100vh;
+}
+.ant-modal-close {
+    display: block;
+    color: #093069;
+}
+.ant-modal-close-x {
+    font-size: 28px;
+    margin: 20px;
+}
+.show-modal .ant-modal-title {
+    font-size: 24px;
+    color:#000E22;
+    margin-left: 40px;
+    padding-top: 35px;
+}
+.show-modal .ant-modal-body {
+    padding: 40px 0px 40px 40px;
+    display: flex;
+    flex-direction: column;
+}
+.show-modal h2 {
+    margin: 0px;
+    margin-top: 10px;
+}
+.show-modal .ant-card-bordered {
+    border: 2px solid #DAE0E9;
+    max-width: 220px;
+    margin-right: 30px;
+}
+.show-modal .ant-card-body {
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.show-modal .ant-modal-body img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.show-modal .btn-card {
+    max-width: 150px;
+    align-self: flex-end;
+    margin-right: 40px;
+    height: 50px;
+}
+.confirm-modal .ant-modal-body {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+.confirm-modal .confirm-modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.confirm-modal .confirm-modal-content span {
+    font-size: 20px;
+    color: #000E22;
+}
+.confirm-modal .confirm-modal-content h1 {
+    font-size: 36px;
+    margin: 10px 0px;
+}
+.confirm-modal img {
+    width: 72px;
+    height: 100px;
+    align-self: center;
+    margin-bottom: 45px;
+}
+.confirm-modal-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.confirm-modal-images>div {
+    margin: 0px 35px;
+}
+.confirm-modal-images h2 {
+    font-size: 30px;
+    margin: 17px 0px 0px 0px;
+}
+.confirm-modal-content .confirm-modal-images img {
+    width: 100px;
+    height: 100px;
+    border-radius: 120px;
+    margin: 0px;
+}
+.confirm-modal-btn {
+    margin-top: 60px;
+}
+.confirm-modal-content .confirm-modal-btn .btn-card {
+    background-color: #627A9E;
+    max-width: 160px;
+    width: 100%;
+    height: 50px;
+    margin: 0px 12px;
+}
+.confirm-modal-content .confirm-modal-btn .btn-card span {
+    color: #ffffff;
+}
+.label {
+    position: relative;
+}
+.label input {
+    position: absolute;
+    opacity: 0;
+}
+.label input:checked ~ .ant-card-bordered {
+    border: 1px solid #00A3FF;
+}
+@media only screen and (max-width:768px){ 
+    .show-modal .modal-content {
+        padding: 0px;
+        justify-content: center;
+        text-align: center;
+    }
+    .show-detail-content .date {
+        justify-content: center;
+    }
+    .show-detail-content .btn-card {
+        align-self: center;
+    }
+}
+@media only screen and (max-width:576px){ 
+    .show-detail-content {
+        flex-direction: column;
+    }
+    .show-detail-img {
+        max-width: 100%;
+        height: 100%;
+    }
+    .show-detail-img img {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+     .show-modal .modal-content {
+        padding: 15px 0px;
+    }
+    .show-detail-content .ant-typography strong {
+        font-size: 30px;
+    }
+}

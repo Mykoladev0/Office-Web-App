@@ -1,0 +1,66 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noEmitHelpers": false,
+    "noEmitOnError": true,
+    "noImplicitAny": false,
+    "allowUnusedLabels": true,
+    "target": "es5",
+    "sourceMap": true,
+    "strictNullChecks": false,
+    "removeComments": true,
+    //"baseUrl": "./scripts",
+    "pretty": true,
+    "declaration": false,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "jsx": "react",
+    "allowJs": true,
+    //"outFile": "./build/tsbundle.js",
+    "outDir": "./wwwroot/js",
+    //"paths": {
+    //},
+    //"plugins": [ { "name": "tslint-language-service" } ],
+    "lib": [
+      "dom",
+      "es6",
+      "scripthost",
+      "es5",
+      "es2015",
+      "es2015.promise"
+    ],
+    "types": [
+      "bootstrap",
+      "jquery",
+    ]
+  },
+   "include": [
+     "Scripts/App/**/*",
+     "Scripts/Utilities/**/*"
+   ],
+  "exclude": [
+    "node_modules",
+    "bower_components",
+    "wwwroot",
+    "Scripts/_references.js",
+    "Scripts/jquery.*"
+  ],
+  "typeRoots": [
+    "node_modules",
+    "node_modules/@types"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    //"forkChecker": true,
+    //"useWebpackText": true,
+    "useBabel": true,
+    "useCache": true
+  },
+  "compileOnSave": true,
+  "buildOnSave": true //,
+  //"atom": { "rewriteTsconfig": false }
+}

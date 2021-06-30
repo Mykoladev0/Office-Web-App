@@ -1,0 +1,277 @@
+﻿@page
+@model PedigreeModel
+@{
+    ViewData["Title"] = "American Bully Kennel Club";
+}
+<h1 class="display-4">Test project for PDFSharp task</h1>
+<div class="text-left"> 
+        <ul>
+            <li>
+                <a asp-page="./PermReg">Permanent registration application</a>
+            </li>
+            <li>
+                <a asp-page="./DNA">DNA certificate application</a>
+            </li>
+            <li>
+                <a asp-page="./SaveBully">Save a bully</a>
+            </li>
+            <li>
+                <a asp-page="./JuniorHandler">Junior Handler</a>
+            </li>
+            <li>
+                <a asp-page="./LitterReport">Litter Report</a>
+            </li>
+            <li>
+                <a asp-page="./ChampionshipCertificate">Chempionship certificate</a>
+            </li>
+        </ul>    
+</div>
+
+<div class="text-right">        
+  <div class="input-group">
+    <form method="POST">
+        <div class="text-left">
+
+        <label>Print with background</label>
+        <input type="checkbox" asp-for="PrintWithBackground" />
+        <br>
+        <label>First page</label>
+        <div>Name: <input asp-for="PedigreeInfo.Name" /></div>
+        <div>Breed: <input asp-for="PedigreeInfo.Breed" /></div>
+        <div>Abkc number: <input asp-for="PedigreeInfo.ABKCNumber" /></div>
+        <div>Gender: <input asp-for="PedigreeInfo.Gender" /></div>
+        <div>Date of birth: <input asp-for="PedigreeInfo.DateOfBirth" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Color" /></div>
+        <div>Microchipnumber: <input asp-for="PedigreeInfo.MicrochipNumber" /></div>
+        <div>Owner name <input asp-for="PedigreeInfo.RegisteredOwnerName" /></div>
+        <div>Address1 <input asp-for="PedigreeInfo.Address1" /></div>
+        <div>Address2 <input asp-for="PedigreeInfo.Address2" /></div>
+        <div>Address3 <input asp-for="PedigreeInfo.Address3" /></div>
+        <div>Pedigree Generation date <input asp-for="PedigreeInfo.PedigreeGeneratedDate" /></div>
+        
+        <label>Second page</label>
+        <label>Pup information</label>
+        <div>Name: <input asp-for="PedigreeInfo.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.ABKCNumber" /></div>
+        <div>Gender: <input asp-for="PedigreeInfo.Gender" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Color" /></div>
+        <div>Date of birth: <input asp-for="PedigreeInfo.DateOfBirth" /></div>
+        <div>Owner of Sire: <input asp-for="PedigreeInfo.SireOwnerName" /></div>
+        <div>Owner of Dam: <input asp-for="PedigreeInfo.DamOwnerName" /></div>
+        <div>Number Of Pups: <input asp-for="PedigreeInfo.NumberOfPups" /></div>
+        <div>Certifications: <input asp-for="PedigreeInfo.CertificationsString" /></div>
+        <label>Sire information</label>
+        <div>Sire: <input asp-for="PedigreeInfo.Sire.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Sire.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Sire.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Sire.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Sire.CertificationsString" /></div>
+        
+        <label>Dam information</label> 
+        <div>Dam: <input asp-for="PedigreeInfo.Dam.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Dam.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Dam.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Dam.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Dam.CertificationsString" /></div>
+    
+        <label>Sire sire information</label>
+        <div>Sire: <input asp-for="PedigreeInfo.Sire.Sire.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Sire.Sire.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Sire.Sire.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Sire.Sire.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Sire.Sire.CertificationsString" /></div>
+        
+        <label>Sire dam information</label>
+        <div>Dam: <input asp-for="PedigreeInfo.Sire.Dam.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Sire.Dam.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Sire.Dam.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Sire.Dam.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Sire.Dam.CertificationsString" /></div>
+        
+        <label>Dam sire information</label>
+        <div>Sire: <input asp-for="PedigreeInfo.Dam.Sire.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Dam.Sire.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Dam.Sire.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Dam.Sire.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Dam.Sire.CertificationsString" /></div>
+        
+        <label>Dam dam information</label>
+        <div>Dam: <input asp-for="PedigreeInfo.Dam.Dam.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Dam.Dam.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Dam.Dam.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Dam.Dam.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Dam.Dam.CertificationsString" /></div>
+
+        <label>Sire sire sire information</label>
+        <div>Sire: <input asp-for="PedigreeInfo.Sire.Sire.Sire.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Sire.Sire.Sire.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Sire.Sire.Sire.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Sire.Sire.Sire.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Sire.Sire.Sire.CertificationsString" /></div>
+        
+        <label>Sire sire dam information</label>
+        <div>Dam: <input asp-for="PedigreeInfo.Sire.Sire.Dam.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Sire.Sire.Dam.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Sire.Sire.Dam.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Sire.Sire.Dam.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Sire.Sire.Dam.CertificationsString" /></div>
+        
+        <label>Sire dam sire information</label>
+        <div>Sire: <input asp-for="PedigreeInfo.Sire.Dam.Sire.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Sire.Dam.Sire.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Sire.Dam.Sire.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Sire.Dam.Sire.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Sire.Dam.Sire.CertificationsString" /></div>
+        
+        <label>Sire Dam dam information</label>
+        <div>Dam: <input asp-for="PedigreeInfo.Sire.Dam.Dam.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Sire.Dam.Dam.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Sire.Dam.Dam.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Sire.Dam.Dam.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Sire.Dam.Dam.CertificationsString" /></div>
+
+        <label>Dam sire sire information</label>
+        <div>Sire: <input asp-for="PedigreeInfo.Dam.Sire.Sire.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Dam.Sire.Sire.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Dam.Sire.Sire.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Dam.Sire.Sire.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Dam.Sire.Sire.CertificationsString" /></div>
+
+        <label>Dam sire dam information</label>
+        <div>Dam: <input asp-for="PedigreeInfo.Dam.Sire.Dam.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Dam.Sire.Dam.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Dam.Sire.Dam.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Dam.Sire.Dam.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Dam.Sire.Dam.CertificationsString" /></div>
+
+        <label>Dam dam sire information</label>
+        <div>Sire: <input asp-for="PedigreeInfo.Dam.Dam.Sire.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Dam.Dam.Sire.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Dam.Dam.Sire.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Dam.Dam.Sire.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Dam.Dam.Sire.CertificationsString" /></div>
+    
+        <label>Dam dam dam information</label>
+        <div>Dam: <input asp-for="PedigreeInfo.Dam.Dam.Dam.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Dam.Dam.Dam.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Dam.Dam.Dam.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Dam.Dam.Dam.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Dam.Dam.Dam.CertificationsString" /></div>
+
+        <label>Sire sire sire sire information</label>
+        <div>Sire: <input asp-for="PedigreeInfo.Sire.Sire.Sire.Sire.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Sire.Sire.Sire.Sire.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Sire.Sire.Sire.Sire.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Sire.Sire.Sire.Sire.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Sire.Sire.Sire.Sire.CertificationsString" /></div>
+
+        <label>Sire sire sire dam information</label>
+        <div>Dam: <input asp-for="PedigreeInfo.Sire.Sire.Sire.Dam.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Sire.Sire.Sire.Dam.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Sire.Sire.Sire.Dam.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Sire.Sire.Sire.Dam.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Sire.Sire.Sire.Dam.CertificationsString" /></div>
+
+        <label>Sire sire dam sire information</label>
+        <div>Sire: <input asp-for="PedigreeInfo.Sire.Sire.Dam.Sire.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Sire.Sire.Dam.Sire.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Sire.Sire.Sire.Dam.Sire.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Sire.Sire.Dam.Sire.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Sire.Sire.Dam.Sire.CertificationsString" /></div>
+
+        <label>Sire sire dam dam information</label>
+        <div>Dam: <input asp-for="PedigreeInfo.Sire.Sire.Dam.Dam.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Sire.Sire.Dam.Dam.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Sire.Sire.Dam.Dam.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Sire.Sire.Dam.Dam.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Sire.Sire.Dam.Dam.CertificationsString" /></div>
+
+        <label>Sire dam sire sire information</label>
+        <div>Sire: <input asp-for="PedigreeInfo.Sire.Dam.Sire.Sire.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Sire.Dam.Sire.Sire.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Sire.Dam.Sire.Sire.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Sire.Dam.Sire.Sire.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Sire.Dam.Sire.Sire.CertificationsString" /></div>
+
+        <label>Sire dam sire dam information</label>
+        <div>Dam: <input asp-for="PedigreeInfo.Sire.Dam.Sire.Dam.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Sire.Dam.Sire.Dam.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Sire.Dam.Sire.Dam.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Sire.Dam.Sire.Dam.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Sire.Dam.Sire.Dam.CertificationsString" /></div>
+
+        <label>Sire dam dam sire information</label>
+        <div>Sire: <input asp-for="PedigreeInfo.Sire.Dam.Dam.Sire.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Sire.Dam.Dam.Sire.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Sire.Dam.Dam.Sire.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Sire.Dam.Dam.Sire.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Sire.Dam.Dam.Sire.CertificationsString" /></div>
+        
+        <label>Sire dam dam dam information</label>
+        <div>Dam: <input asp-for="PedigreeInfo.Sire.Dam.Dam.Dam.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Sire.Dam.Dam.Dam.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Sire.Dam.Dam.Dam.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Sire.Dam.Dam.Dam.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Sire.Dam.Dam.Dam.CertificationsString" /></div>
+
+        <label>Dam sire sire sire information</label>
+        <div>Sire: <input asp-for="PedigreeInfo.Dam.Sire.Sire.Sire.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Dam.Sire.Sire.Sire.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Dam.Sire.Sire.Sire.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Dam.Sire.Sire.Sire.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Dam.Sire.Sire.Sire.CertificationsString" /></div>
+        
+        <label>Dam sire sire dam information</label>
+        <div>Dam: <input asp-for="PedigreeInfo.Dam.Sire.Sire.Dam.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Dam.Sire.Sire.Dam.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Dam.Sire.Sire.Dam.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Dam.Sire.Sire.Dam.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Dam.Sire.Sire.Dam.CertificationsString" /></div>
+        
+        <label>Dam sire dam sire information</label>
+        <div>Sire: <input asp-for="PedigreeInfo.Dam.Sire.Dam.Sire.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Dam.Sire.Dam.Sire.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Dam.Sire.Dam.Sire.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Dam.Sire.Dam.Sire.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Dam.Sire.Dam.Sire.CertificationsString" /></div>
+        
+        <label>Dam sire dam dam information</label>
+        <div>Dam: <input asp-for="PedigreeInfo.Dam.Sire.Dam.Dam.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Dam.Sire.Dam.Dam.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Dam.Sire.Dam.Dam.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Dam.Sire.Dam.Dam.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Dam.Sire.Dam.Dam.CertificationsString" /></div>
+        
+        <label>Dam dam sire sire information</label>
+        <div>Sire: <input asp-for="PedigreeInfo.Dam.Dam.Sire.Sire.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Dam.Dam.Sire.Sire.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Dam.Dam.Sire.Sire.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Dam.Dam.Sire.Sire.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Dam.Dam.Sire.Sire.CertificationsString" /></div>
+
+        <label>Dam dam sire dam information</label>
+        <div>Dam: <input asp-for="PedigreeInfo.Dam.Dam.Sire.Dam.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Dam.Dam.Sire.Dam.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Dam.Dam.Sire.Dam.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Dam.Dam.Sire.Dam.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Dam.Dam.Sire.Dam.CertificationsString" /></div>
+
+        <label>Dam dam dam sire information</label>
+        <div>Sire: <input asp-for="PedigreeInfo.Dam.Dam.Dam.Sire.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Dam.Dam.Dam.Sire.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Dam.Dam.Dam.Sire.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Dam.Dam.Dam.Sire.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Dam.Dam.Dam.Sire.CertificationsString" /></div>
+
+        <label>Dam dam dam dam information</label>
+        <div>Dam: <input asp-for="PedigreeInfo.Dam.Dam.Dam.Dam.Name" /></div>
+        <div>ABKCNumber: <input asp-for="PedigreeInfo.Dam.Dam.Dam.Dam.ABKCNumber" /></div>
+        <div>NumberOfPups: <input asp-for="PedigreeInfo.Dam.Dam.Dam.Dam.NumberOfPups" /></div>
+        <div>Color: <input asp-for="PedigreeInfo.Dam.Dam.Dam.Dam.Color" /></div>
+        <div>Degree/certification: <input asp-for="PedigreeInfo.Dam.Dam.Dam.Dam.CertificationsString" /></div>
+
+        <div>Pedigree Generation date <input asp-for="PedigreeInfo.PedigreeGeneratedDate" /></div>
+        <input type="submit" />
+        
+    </form>
+</div>

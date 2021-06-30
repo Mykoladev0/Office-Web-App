@@ -1,0 +1,28 @@
+﻿@page
+@model DNAModel;
+@{
+    ViewData["Title"] = "American Bully Kennel Club";
+}
+
+<div class="text-right">
+    <h1 class="display-4">Test project for PDFSharp task</h1>
+  <div class="input-group">
+    <form method="POST">
+        <div class="text-left">
+        <label>Print with background</label>
+        <input type="checkbox" asp-for="PrintWithBackground" />
+        <br>
+         <div>Name<input asp-for="DNACertificate.Name" /></div>
+        <div>Breed<input asp-for="DNACertificate.Breed" /></div>
+        <div>Sex<input asp-for="DNACertificate.Gender" /></div>
+        <div>Birthdate <input asp-for="DNACertificate.DateOfBirth" /></div>
+        <div>ABKCNo <input asp-for="DNACertificate.ABKCNumber" /></div>
+        <div>Date of analysis <input asp-for="DNACertificate.DateOfAnalysis" /></div>
+        <div>Ownername<input asp-for="DNACertificate.RegisteredOwnerName" /></div>
+        <div>Address1 <input asp-for="DNACertificate.Address1" /></div>
+        <div>Address2 <input asp-for="DNACertificate.Address2" /></div>
+        <div>Address3 <input asp-for="DNACertificate.Address3" /></div>
+        <div>Generation date <input asp-for="DNACertificate.CertificateGenerationDate" /></div>
+        <input type="submit" />
+    </form>
+</div>
